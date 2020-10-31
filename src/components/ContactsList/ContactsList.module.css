@@ -1,0 +1,17 @@
+.contacts-list {
+    width: 280px;
+}
+.contacts-list__item {
+    margin: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+.delete-button {
+    padding: 2px 6px;
+    border-radius: 8px;
+}
+.delete-button:active {
+    outline: none;
+    background-color: darkblue;
+    color: #ffffff;
+}
